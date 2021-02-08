@@ -1,7 +1,8 @@
-body {
-    background-color: lightblue;
+body {text-align: center;
+    background-color: rgb(240, 242, 243);
   }
-  
+  header, section, footer {max-width: 800px; margin-left: auto;margin-right: auto;}
+
   h1 {
     color: white;
     text-align: center;
@@ -11,3 +12,12 @@ body {
     font-family: verdana;
     font-size: 20px;
   }
+  .footer_list { 
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      justify-content: center;
+    }
+    .footer_list li {
+        margin: 0 5px;
+    }
