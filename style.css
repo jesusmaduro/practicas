@@ -1,5 +1,6 @@
 body {text-align: center;
     background-color: rgb(240, 242, 243);
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
   }
   header, section, footer {max-width: 800px; margin-left: auto;margin-right: auto;}
 
@@ -20,4 +21,29 @@ body {text-align: center;
     }
     .footer_list li {
         margin: 0 5px;
+    }
+    .footer_list li::after{
+        content: "|";
+        height: 100%;
+        padding: 0 5px;
+        margin-left: 13px;
+    }
+    .footer_list li:last-child::after{
+        content: "";
+    }
+    footer {
+        background-color:rgb(41, 41, 41);
+        color: white;
+        padding: 10px;
+    }
+    .footer_date {
+        color: slategray;
+    }
+    section {
+        padding: 10px 10px 30px 10px;
+    }
+    .hr {
+        width: 80%;
+        margin: 0 auto;
+        border: 1px solid red;
     }
